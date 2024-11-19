@@ -24,9 +24,13 @@ dependencies {
     // This dependency is used by the application.
     implementation libs.guava
 
+    implementation 'org.telegram:telegrambots:6.9.7.1'
     implementation 'org.telegram:telegrambots-longpolling:7.10.0'
-
+    implementation 'com.squareup.okhttp3:okhttp:4.12.0'
     implementation 'org.telegram:telegrambots-client:7.10.0'    
+    implementation 'org.telegram:telegrambots-meta:7.10.0'
+
+    
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
